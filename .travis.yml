@@ -1,6 +1,6 @@
 
 language: c
- sudo: false # only for faster builds
- script:
- - gcc -o hello hello.c
- - ./hello 
+sudo: false # only for faster builds
+script:
+- gcc -o hello hello.c
+- ./hello 
